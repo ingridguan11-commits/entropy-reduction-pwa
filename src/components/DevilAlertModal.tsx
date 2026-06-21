@@ -44,7 +44,7 @@ export default function DevilAlertModal() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 grid place-items-end bg-[#2f2b25]/35 px-4 pb-5 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 grid items-end justify-items-center bg-[#2f2b25]/35 px-4 pb-5 backdrop-blur-sm">
       <div className="card w-full max-w-[480px] p-5 text-center">
         <div className="mx-auto grid h-24 w-24 place-items-center rounded-full bg-[rgba(216,194,197,0.45)]">
           <LowEntropyImp state="devil-takeover" size="lg" label="低熵小魔头接管提醒" />
