@@ -1,0 +1,30 @@
+{
+  "name": "entropy-reduction-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "overrides": {
+    "postcss": "8.5.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "@next/swc-darwin-arm64": "^16.2.9"
+  }
+}

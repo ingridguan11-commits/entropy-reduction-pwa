@@ -1,0 +1,18 @@
+{
+  "name": "熵减",
+  "short_name": "熵减",
+  "description": "一个手机端优先的个人秩序生活管理 PWA。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f3ea",
+  "theme_color": "#b7c5ad",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
